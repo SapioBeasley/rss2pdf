@@ -1,8 +1,6 @@
 # rss2pdf
 Input a google news rss feed and get a PDF export with each article per page. Class is specifically made to parse news.google.com rss, but other rss feeds may be input as well. Other inputs will only display the description and no other data without further edits.
 
-[![Build Status](https://travis-ci.org/SapioBeasley/geocode.svg?branch=master)](https://travis-ci.org/SapioBeasley/geocode)
-
 ### Demo
 Input rss/xml feed you would like to have parsed submit it. You will see a notice to view your pdf submission. Click to view.
 
