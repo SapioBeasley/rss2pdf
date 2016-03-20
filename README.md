@@ -3,16 +3,18 @@ Input a google news rss feed and get a PDF export with each article per page. Cl
 
 ### Demo
 Input rss/xml feed you would like to have parsed submit it. You will see a notice to view your pdf submission. Click to view.
-Run a live demo `http://sapioweb.com/rss2pdf`
+Run a live demo: [http://sapioweb.com/rss2pdf](http://sapioweb.com/rss2pdf)
 
 ### Installation
 Clone repo into the root of your project
 `git clone https://github.com/SapioBeasley/rss2pdf.git`
 
 Install dependencies
-`cd rss2pdf/`
+`cd rss2pdf/ &&`
 `composer install`
 
 ## Usage
-`$pdf = new urlToPDF();`
-`$pdf->displayPdf($url);`
+```php
+$pdf = new urlToPDF();
+$pdf->displayPdf($url);
+```
