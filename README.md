@@ -1,8 +1,10 @@
 # rss2pdf
-Input a google news rss feed and get a PDF export with each article per page. Class is specifically made to parse news.google.com rss, but other rss feeds may be input as well. Other inputs will only display the description and no other data without further edits.
+Simple php page where after submitting an rss feed from news.google.com it will grab the contents of the RSS and gernerate a PDF output with one article from the XML per page.
+
+Functionality is specifically made to parse news.google.com rss, but other rss feeds may be input as well. Other inputs will only display the description and no other data without further edits.
 
 ### Demo
-Input rss/xml feed you would like to have parsed submit it. You will see a notice to view your pdf submission. Click to view.
+Input rss/xml feed you would like to have parsed submit it. You will see a notice to view your pdf submission. Click to view. An example url that you can use is `http://news.google.com/news?pz=1&cf=all&ned=us&hl=en&output=rss`.
 
 Run a live demo: [http://sapioweb.com/rss2pdf](http://sapioweb.com/rss2pdf)
 
