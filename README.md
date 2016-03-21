@@ -20,6 +20,8 @@ Install dependencies
 
 ## Usage
 ```php
+require 'urlToPDF.php';
+
 $pdf = new urlToPDF();
 $pdf->displayPdf($url);
 ```
