@@ -2,6 +2,6 @@
     "require": {
         "guzzlehttp/guzzle": "^6.1",
         "setasign/fpdf": "1.8.1",
-	"phpunit/phpunit": "3.7.*"
+        "dannyvankooten/php-router": "dev-master"
     }
 }
